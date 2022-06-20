@@ -1,0 +1,15 @@
+﻿UASKGV.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPAUGLFWwindow@@HHHH@Z)
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "void __cdecl setup_viewport(struct GLFWwindow *)" (?setup_viewport@@YAXPAUGLFWwindow@@@Z)
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+UASKGV.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+C:\opengl\glew\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\opengl\glfw\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Sutan\Downloads\Compressed\glutdlls37beta\UASKGV\Debug\UASKGV.exe : fatal error LNK1120: 12 unresolved externals
